@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		EB439CC71EB2113F00079A82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB439CC61EB2113F00079A82 /* AppDelegate.swift */; };
-		EB439CC91EB2113F00079A82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB439CC81EB2113F00079A82 /* ViewController.swift */; };
 		EB439CCC1EB2113F00079A82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB439CCA1EB2113F00079A82 /* Main.storyboard */; };
 		EB439CCE1EB2113F00079A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB439CCD1EB2113F00079A82 /* Assets.xcassets */; };
 		EB439CD11EB2113F00079A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB439CCF1EB2113F00079A82 /* LaunchScreen.storyboard */; };
+		EB439CD91EB2120400079A82 /* ArticleListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB439CD81EB2120400079A82 /* ArticleListTableViewController.swift */; };
+		EB8934F01EB76BC500FB6679 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8934EF1EB76BC500FB6679 /* Article.swift */; };
+		EBAAF78F1EB5FAF300FFDCAE /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAAF78E1EB5FAF300FFDCAE /* ArticleDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB439CC31EB2113F00079A82 /* MyNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB439CC61EB2113F00079A82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB439CC81EB2113F00079A82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB439CCB1EB2113F00079A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB439CCD1EB2113F00079A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB439CD01EB2113F00079A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB439CD21EB2113F00079A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB439CD81EB2120400079A82 /* ArticleListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListTableViewController.swift; sourceTree = "<group>"; };
+		EB8934EF1EB76BC500FB6679 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		EBAAF78E1EB5FAF300FFDCAE /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				EB439CC61EB2113F00079A82 /* AppDelegate.swift */,
-				EB439CC81EB2113F00079A82 /* ViewController.swift */,
+				EB439CD81EB2120400079A82 /* ArticleListTableViewController.swift */,
+				EBAAF78E1EB5FAF300FFDCAE /* ArticleDetailViewController.swift */,
+				EB8934EF1EB76BC500FB6679 /* Article.swift */,
 				EB439CCA1EB2113F00079A82 /* Main.storyboard */,
 				EB439CCD1EB2113F00079A82 /* Assets.xcassets */,
 				EB439CCF1EB2113F00079A82 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB439CC91EB2113F00079A82 /* ViewController.swift in Sources */,
+				EB8934F01EB76BC500FB6679 /* Article.swift in Sources */,
+				EB439CD91EB2120400079A82 /* ArticleListTableViewController.swift in Sources */,
 				EB439CC71EB2113F00079A82 /* AppDelegate.swift in Sources */,
+				EBAAF78F1EB5FAF300FFDCAE /* ArticleDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +312,7 @@
 				EB439CD71EB2113F00079A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
